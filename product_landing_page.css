@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background: url('https://www.avikalp.com/cdn/shop/products/MWZ3588_wallpaper3.jpg?v=1653228859') center/cover no-repeat;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 60px 20px;
+  width: 100%;
+}
+.header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.header p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #ff5e57;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #e94e47;
+}
+
+/* Product Info */
+.product-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+.product-img {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.info-text {
+  flex: 1;
+  padding: 20px;
+}
+.info-text h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.info-text p {
+  margin-bottom: 20px;
+}
+.features {
+  background-color: #f1f4f7;
+  padding: 60px 20px;
+  text-align: center;
+}
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.feature-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.feature-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+.feature-card h3 {
+  margin-bottom: 10px;
+}
+.testimonials {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.testimonial {
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .product-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .info-text {
+    padding: 20px 0;
+  }
+  .feature-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
